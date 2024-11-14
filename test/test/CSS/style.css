@@ -1,0 +1,73 @@
+/* 基本樣式 */
+body {
+    font-family: "Georgia", serif;
+    background-color: #f8f5f1;
+    color: #4a4a4a;
+    text-align: center;
+    margin: 0;
+}
+
+/* 頁首樣式 */
+.header {
+    padding: 30px;
+    background-color: #e8e1d6;
+    color: #4a4a4a;
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #3d3d3d;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #7a7a7a;
+}
+
+/* 花束展示區 */
+.flower-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.flower-item {
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flower-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.flower-item h2 {
+    font-size: 1.2em;
+    color: #4a4a4a;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 1.1em;
+    color: #8b572a;
+}
+
+.add-to-cart-btn {
+    background-color: #8b572a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #6e4620;
