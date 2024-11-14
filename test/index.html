@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>百合花店</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 首頁展示區 -->
+    <header class="header">
+        <h1>歡迎來到百合花店</h1>
+        <p>在這裡找到您理想的花束</p>
+    </header>
+
+    <!-- 圖片展示區 -->
+    <section class="carousel">
+        <img src="flower1.jpg" alt="花束展示1">
+        <img src="flower2.jpg" alt="花束展示2">
+        <img src="flower3.jpg" alt="花束展示3">
+        <button class="prev" onclick="changeSlide(-1)">❮</button>
+        <button class="next" onclick="changeSlide(1)">❯</button>
+    </section>
+
+    <!-- 主要內容區 -->
+    <main class="main-content">
+        <button class="order-btn">訂購花束</button>
+        <button class="about-btn">關於我們</button>
+        <button class="contact-btn">聯絡我們</button>
+    </main>
+
+    <!-- 頁尾 -->
+    <footer class="footer">
+        <p>追蹤我們：</p>
+        <a href="https://instagram.com/您的帳號" target="_blank">Instagram</a>
+        <a href="https://facebook.com/您的帳號" target="_blank">Facebook</a>
+        <a href="https://threads.net/您的帳號" target="_blank">Threads</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
