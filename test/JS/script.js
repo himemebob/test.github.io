@@ -1,8 +1,7 @@
-let currentSlide = 0;
-const slides = document.querySelectorAll('.carousel img');
+// 基本的購物車功能
+document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        alert('已加入購物車');
+    });
+});
 
-function changeSlide(step) {
-    slides[currentSlide].style.display = 'none';
-    currentSlide = (currentSlide + step + slides.length) % slides.length;
-    slides[currentSlide].style.display = 'block';
-}
